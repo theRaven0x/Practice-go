@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	fmt.Println(piscine.RetainFirstHalf("This is the 1st halfThis is the 2nd half"))
-	fmt.Println(piscine.RetainFirstHalf("A"))
-	fmt.Println(piscine.RetainFirstHalf(""))
-	fmt.Println(piscine.RetainFirstHalf("Hello World"))
+	fmt.Println(piscine.Gcd(42, 10))
+	fmt.Println(piscine.Gcd(42, 12))
+	fmt.Println(piscine.Gcd(14, 77))
+	fmt.Println(piscine.Gcd(17, 3))
 }
